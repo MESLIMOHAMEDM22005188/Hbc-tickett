@@ -23,9 +23,7 @@ export default function Login() {
                 width: '100%',
                 maxWidth: '500px',
             }}>
-                <div style={{ position: 'absolute', top: '-120px', left: '50%', transform: 'translateX(-50%)', zIndex: '1' }}>
-                    <Image src="/closeyeti.png" alt="Close Yeti" width={120} height={120} />
-                </div>
+                
                 <h1 style={{ textAlign: 'center', marginBottom: '20px', color: '#000000', fontFamily: '"SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif', fontWeight: '600', lineHeight: '1.1', letterSpacing: '0em', zIndex: '2' }}>Inscrivez-vous</h1>
                 <form style={{ position: 'relative', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center' }}>
                     <div style={{ flex: '0 0 48%', marginBottom: '10px' }}>

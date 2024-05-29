@@ -1,4 +1,8 @@
-import Link from 'next/link';
+'use client';
+
+import React, { useState } from 'react'; // Importez useState depuis React
+import { useRouter } from 'next/router'; // Importez useRouter depuis next/router
+
 
 export default function Home() {
   return (
